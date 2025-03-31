@@ -1,0 +1,24 @@
+[0.911s] Invoking command in '/home/robotics/workspaces/track_line_ws/src/line_tracker': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robotics/workspaces/track_line_ws/build/line_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/workspaces/track_line_ws/install/line_tracker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_tracker build --build-base /home/robotics/workspaces/track_line_ws/build/line_tracker/build install --record /home/robotics/workspaces/track_line_ws/build/line_tracker/install.log --single-version-externally-managed install_data
+[1.212s] running egg_info
+[1.237s] writing ../../build/line_tracker/line_tracker.egg-info/PKG-INFO
+[1.238s] writing dependency_links to ../../build/line_tracker/line_tracker.egg-info/dependency_links.txt
+[1.238s] writing entry points to ../../build/line_tracker/line_tracker.egg-info/entry_points.txt
+[1.238s] writing requirements to ../../build/line_tracker/line_tracker.egg-info/requires.txt
+[1.238s] writing top-level names to ../../build/line_tracker/line_tracker.egg-info/top_level.txt
+[1.288s] reading manifest file '../../build/line_tracker/line_tracker.egg-info/SOURCES.txt'
+[1.289s] writing manifest file '../../build/line_tracker/line_tracker.egg-info/SOURCES.txt'
+[1.289s] running build
+[1.289s] running build_py
+[1.289s] copying line_tracker/line_to_serial_node.py -> /home/robotics/workspaces/track_line_ws/build/line_tracker/build/lib/line_tracker
+[1.290s] running install
+[1.296s] running install_lib
+[1.321s] copying /home/robotics/workspaces/track_line_ws/build/line_tracker/build/lib/line_tracker/line_to_serial_node.py -> /home/robotics/workspaces/track_line_ws/install/line_tracker/lib/python3.12/site-packages/line_tracker
+[1.322s] byte-compiling /home/robotics/workspaces/track_line_ws/install/line_tracker/lib/python3.12/site-packages/line_tracker/line_to_serial_node.py to line_to_serial_node.cpython-312.pyc
+[1.322s] running install_data
+[1.323s] running install_egg_info
+[1.349s] removing '/home/robotics/workspaces/track_line_ws/install/line_tracker/lib/python3.12/site-packages/line_tracker-0.0.0-py3.12.egg-info' (and everything under it)
+[1.349s] Copying ../../build/line_tracker/line_tracker.egg-info to /home/robotics/workspaces/track_line_ws/install/line_tracker/lib/python3.12/site-packages/line_tracker-0.0.0-py3.12.egg-info
+[1.350s] running install_scripts
+[1.510s] Installing line_tracker_node script to /home/robotics/workspaces/track_line_ws/install/line_tracker/lib/line_tracker
+[1.510s] writing list of installed files to '/home/robotics/workspaces/track_line_ws/build/line_tracker/install.log'
+[1.543s] Invoked command in '/home/robotics/workspaces/track_line_ws/src/line_tracker' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robotics/workspaces/track_line_ws/build/line_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/workspaces/track_line_ws/install/line_tracker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_tracker build --build-base /home/robotics/workspaces/track_line_ws/build/line_tracker/build install --record /home/robotics/workspaces/track_line_ws/build/line_tracker/install.log --single-version-externally-managed install_data

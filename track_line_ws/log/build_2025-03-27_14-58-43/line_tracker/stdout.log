@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/line_tracker/line_tracker.egg-info/PKG-INFO
+writing dependency_links to ../../build/line_tracker/line_tracker.egg-info/dependency_links.txt
+writing entry points to ../../build/line_tracker/line_tracker.egg-info/entry_points.txt
+writing requirements to ../../build/line_tracker/line_tracker.egg-info/requires.txt
+writing top-level names to ../../build/line_tracker/line_tracker.egg-info/top_level.txt
+reading manifest file '../../build/line_tracker/line_tracker.egg-info/SOURCES.txt'
+writing manifest file '../../build/line_tracker/line_tracker.egg-info/SOURCES.txt'
+running build
+running build_py
+copying line_tracker/line_to_serial_node.py -> /home/robotics/workspaces/track_line_ws/build/line_tracker/build/lib/line_tracker
+running install
+running install_lib
+copying /home/robotics/workspaces/track_line_ws/build/line_tracker/build/lib/line_tracker/line_to_serial_node.py -> /home/robotics/workspaces/track_line_ws/install/line_tracker/lib/python3.12/site-packages/line_tracker
+byte-compiling /home/robotics/workspaces/track_line_ws/install/line_tracker/lib/python3.12/site-packages/line_tracker/line_to_serial_node.py to line_to_serial_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/robotics/workspaces/track_line_ws/install/line_tracker/lib/python3.12/site-packages/line_tracker-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/line_tracker/line_tracker.egg-info to /home/robotics/workspaces/track_line_ws/install/line_tracker/lib/python3.12/site-packages/line_tracker-0.0.0-py3.12.egg-info
+running install_scripts
+Installing line_to_serial_node script to /home/robotics/workspaces/track_line_ws/install/line_tracker/lib/line_tracker
+Installing line_tracker_node script to /home/robotics/workspaces/track_line_ws/install/line_tracker/lib/line_tracker
+writing list of installed files to '/home/robotics/workspaces/track_line_ws/build/line_tracker/install.log'

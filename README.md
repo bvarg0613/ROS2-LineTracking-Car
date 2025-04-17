@@ -35,5 +35,35 @@ ROS2-LineTracking-Car/
 ├── cad/
 │   └── robot_chassis.STL # 3D-printable chassis part(s)
 └── README.md             # You are here
-'''
+```
+
+## 🛠️ Hardware Setup
+
+
+## 💻Software Setup
+
+
+#### Install Dependencies
+Be sure to install all proper dependencies for your system (this GitHub was tested with ROS2 Jazzy on Ubuntu 24.04 LTS)
+
+Follow the official ROS2 installation guide to install the proper version of ROS2 on your system:
+https://www.ros.org/blog/getting-started/
+
+After installing ROS2, be sure to source it and  install all other necessary jargon:
+```bash
+sudo apt update
+sudo apt upgrade -y
+
+sudo apt install python3-opencv python3-numpy
+pip3 install pyserial
+pip3 install platformio
+sudo apt install build-essential cmake git
+```
+
+Now clone the GitHub repository into your workspace:
+```bash
+mkdir ros2_line_tracking_car && cd ros2_line_tracking_car
+git clone https://github.com/bvarg0613/ROS2-LineTracking-Car.git
+```
+
 
